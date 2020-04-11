@@ -24,5 +24,11 @@ public class Parking {
 	 
 		this.vehicules.add(v);
 		}
-
+	// design pattern singleton
+    static Parking p = new Parking();
+    private Parking () {
+    }
+    public static Parking getInstance() {
+    		return p;
+    }
 	}
