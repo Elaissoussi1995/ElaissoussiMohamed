@@ -45,12 +45,12 @@ public class GestionParc {
 		frame.getContentPane().setLayout(null);
 		
 		frame.setTitle("Location de Vehicules");
-		  frame.setSize(700, 700);
+		  frame.setSize(519, 416);
 		  frame.setLocationRelativeTo(null);
 		  frame.setVisible(true);
 		
 		JLabel lblGestionDuParc = new JLabel("Gestion du Parc");
-		lblGestionDuParc.setFont(new Font("Tahoma", Font.BOLD, 18));
+		lblGestionDuParc.setFont(new Font("Tahoma", Font.BOLD, 20));
 		lblGestionDuParc.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGestionDuParc.setBounds(150, 26, 164, 49);
 		frame.getContentPane().add(lblGestionDuParc);
@@ -62,7 +62,7 @@ public class GestionParc {
 				new AjouterVoiture(); 
 			}
 		});
-		btnAjouterVoiture.setBounds(130, 100, 210, 33);
+		btnAjouterVoiture.setBounds(130, 100, 210, 43);
 		frame.getContentPane().add(btnAjouterVoiture);
 		
 		JButton btnAjouterQuad = new JButton("Ajouter un nouveau quad");
@@ -72,7 +72,7 @@ public class GestionParc {
 				new AjouterQuad(); 
 			}
 		});
-		btnAjouterQuad.setBounds(130, 175, 210, 33);
+		btnAjouterQuad.setBounds(130, 175, 210, 43);
 		frame.getContentPane().add(btnAjouterQuad);
 		
 		JButton btnAjouterMoto = new JButton("Ajouter une nouvelle moto");
@@ -82,7 +82,7 @@ public class GestionParc {
 				new AjouterMoto(); 
 			}
 		});
-		btnAjouterMoto.setBounds(130, 250, 210, 37);
+		btnAjouterMoto.setBounds(130, 250, 210, 43);
 		frame.getContentPane().add(btnAjouterMoto);
 	}
 

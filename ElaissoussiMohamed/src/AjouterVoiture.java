@@ -46,7 +46,7 @@ public class AjouterVoiture {
 		frame.getContentPane().setLayout(null);
 		
 		  frame.setTitle("Location de Vehicules");
-		  frame.setSize(1000, 700);
+		  frame.setSize(537, 413);
 		  frame.setLocationRelativeTo(null);
 		  frame.setVisible(true);
 	
@@ -67,52 +67,52 @@ public class AjouterVoiture {
 			});
 		  
 		btnAjouterVoiture.setFont(new Font("Tahoma", Font.PLAIN, 15));
-		btnAjouterVoiture.setBounds(153, 197, 174, 35);
+		btnAjouterVoiture.setBounds(166, 289, 174, 35);
 		frame.getContentPane().add(btnAjouterVoiture);
 		
 		JLabel lblGestionDesVoitures = new JLabel("Gestion des voitures");
 		lblGestionDesVoitures.setHorizontalAlignment(SwingConstants.CENTER);
-		lblGestionDesVoitures.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblGestionDesVoitures.setBounds(153, 23, 158, 24);
+		lblGestionDesVoitures.setFont(new Font("Tahoma", Font.BOLD, 18));
+		lblGestionDesVoitures.setBounds(142, 23, 227, 41);
 		frame.getContentPane().add(lblGestionDesVoitures);
 		
 		JLabel lblNewLabel = new JLabel("Marque");
-		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setBounds(85, 66, 144, 14);
+		lblNewLabel.setHorizontalAlignment(SwingConstants.LEFT);
+		lblNewLabel.setBounds(85, 103, 183, 14);
 		frame.getContentPane().add(lblNewLabel);
 		
 		JLabel lblNombreDePlaces = new JLabel("Nombre de places");
-		lblNombreDePlaces.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNombreDePlaces.setBounds(95, 91, 134, 14);
+		lblNombreDePlaces.setHorizontalAlignment(SwingConstants.LEFT);
+		lblNombreDePlaces.setBounds(85, 150, 134, 14);
 		frame.getContentPane().add(lblNombreDePlaces);
 		
 		JLabel lblNewLabel_1 = new JLabel("Numéro d'immatriculation");
-		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setBounds(85, 127, 144, 14);
+		lblNewLabel_1.setHorizontalAlignment(SwingConstants.LEFT);
+		lblNewLabel_1.setBounds(85, 193, 183, 14);
 		frame.getContentPane().add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_2 = new JLabel("Couleur");
-		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2.setBounds(85, 162, 144, 14);
+		lblNewLabel_2.setHorizontalAlignment(SwingConstants.LEFT);
+		lblNewLabel_2.setBounds(85, 231, 144, 14);
 		frame.getContentPane().add(lblNewLabel_2);
 		
 		marque = new JTextField();
-		marque.setBounds(271, 63, 86, 20);
+		marque.setBounds(300, 100, 168, 20);
 		frame.getContentPane().add(marque);
 		marque.setColumns(10);
 		
 		Nbplaces = new JTextField();
-		Nbplaces.setBounds(271, 88, 86, 20);
+		Nbplaces.setBounds(300, 150, 168, 20);
 		frame.getContentPane().add(Nbplaces);
 		Nbplaces.setColumns(10);
 		
 		NumImmatriculation = new JTextField();
-		NumImmatriculation.setBounds(271, 124, 86, 20);
+		NumImmatriculation.setBounds(300, 190, 168, 20);
 		frame.getContentPane().add(NumImmatriculation);
 		NumImmatriculation.setColumns(10);
 		
 		couleur = new JTextField();
-		couleur.setBounds(271, 159, 86, 20);
+		couleur.setBounds(300, 228, 168, 20);
 		frame.getContentPane().add(couleur);
 		couleur.setColumns(10);
 	}

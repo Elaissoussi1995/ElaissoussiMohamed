@@ -9,8 +9,8 @@ public class Parking {
 		return vehicules;
 	}
 
-	public void setVehicules(ArrayList<Vehicule> Vehicules) {
-		this.vehicules = vehicules;
+	public void setVehicules(ArrayList<Vehicule> vehicules) {
+		this.vehicules = vehicules; 
 	} 
 		
 	public void affichervehiculesParking() { 
@@ -24,7 +24,7 @@ public class Parking {
 	 
 		this.vehicules.add(v);
 		}
-	// design pattern singleton
+	// dp
     static Parking p = new Parking();
     private Parking () {
     }

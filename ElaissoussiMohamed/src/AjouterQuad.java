@@ -46,7 +46,7 @@ public class AjouterQuad {
 		frame.getContentPane().setLayout(null);
 		
 		  frame.setTitle("Location de Vehicules");
-		  frame.setSize(1000, 700);
+		  frame.setSize(530, 366);
 		  frame.setLocationRelativeTo(null);
 		  frame.setVisible(true);
 	
@@ -72,47 +72,47 @@ public class AjouterQuad {
 		
 		JLabel lblGestionDesQuads = new JLabel("Gestion des Quads");
 		lblGestionDesQuads.setHorizontalAlignment(SwingConstants.CENTER);
-		lblGestionDesQuads.setFont(new Font("Tahoma", Font.BOLD, 14));
-		lblGestionDesQuads.setBounds(153, 23, 158, 24);
+		lblGestionDesQuads.setFont(new Font("Tahoma", Font.BOLD, 16));
+		lblGestionDesQuads.setBounds(153, 11, 158, 36);
 		frame.getContentPane().add(lblGestionDesQuads);
 		
 		JLabel lblNewLabel = new JLabel("Marque");
-		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setBounds(85, 66, 99, 14);
+		lblNewLabel.setHorizontalAlignment(SwingConstants.LEFT);
+		lblNewLabel.setBounds(85, 66, 145, 14);
 		frame.getContentPane().add(lblNewLabel);
 		
 		JLabel lblNombreDePlaces = new JLabel("Nombre de places");
-		lblNombreDePlaces.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNombreDePlaces.setBounds(95, 91, 99, 14);
+		lblNombreDePlaces.setHorizontalAlignment(SwingConstants.LEFT);
+		lblNombreDePlaces.setBounds(85, 91, 145, 14);
 		frame.getContentPane().add(lblNombreDePlaces);
 		
 		JLabel lblNewLabel_1 = new JLabel("Num\u00E9ro d'immatriculation");
-		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setBounds(85, 127, 119, 14);
+		lblNewLabel_1.setHorizontalAlignment(SwingConstants.LEFT);
+		lblNewLabel_1.setBounds(85, 127, 165, 14);
 		frame.getContentPane().add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_2 = new JLabel("Cat\u00E9gorie");
-		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_2.setBounds(85, 162, 119, 14);
+		lblNewLabel_2.setHorizontalAlignment(SwingConstants.LEFT);
+		lblNewLabel_2.setBounds(85, 162, 145, 14);
 		frame.getContentPane().add(lblNewLabel_2);
 		
 		marque = new JTextField();
-		marque.setBounds(271, 63, 86, 20);
+		marque.setBounds(271, 63, 139, 20);
 		frame.getContentPane().add(marque);
 		marque.setColumns(10);
 		
 		Nbplaces = new JTextField();
-		Nbplaces.setBounds(271, 88, 86, 20);
+		Nbplaces.setBounds(271, 88, 139, 20);
 		frame.getContentPane().add(Nbplaces);
 		Nbplaces.setColumns(10);
 		
 		NumImmatriculation = new JTextField();
-		NumImmatriculation.setBounds(271, 124, 86, 20);
+		NumImmatriculation.setBounds(271, 124, 139, 20);
 		frame.getContentPane().add(NumImmatriculation);
 		NumImmatriculation.setColumns(10);
 		
 		categorie = new JTextField();
-		categorie.setBounds(271, 159, 86, 20);
+		categorie.setBounds(271, 159, 139, 20);
 		frame.getContentPane().add(categorie);
 		categorie.setColumns(10);
 	}

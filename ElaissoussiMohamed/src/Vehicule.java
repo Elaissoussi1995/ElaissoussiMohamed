@@ -1,7 +1,6 @@
 import java.io.FileWriter;
 import java.io.IOException;
 
-import org.json.simple.JSONObject;
 
 public class Vehicule {
 	private String marque;
@@ -19,16 +18,7 @@ public class Vehicule {
 	this.NumImmatriculation=numImmatriculation;
 	this.Nbplaces=nbplaces;
 	
-	/*JSONObject jsonob = new JSONObject ();
-	jsonob.put ("marque", marque);
-	jsonob.put ("NumImmatriculation", numImmatriculation);
-	jsonob.put ("Nbplaces", nbplaces);
 	
-	FileWriter file = new FileWriter(marque+".json");
-	file.write(jsonob.toString());
-	file.flush();
-	file.close();
-	System.out.println(jsonob);*/
 }
 
 	public String getMarque() {
